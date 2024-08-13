@@ -1,0 +1,55 @@
+.avatar-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre avatares */
+}
+
+.avatar-item {
+    cursor: pointer;
+    border: 2px solid transparent; /* Borde transparente para el estado no seleccionado */
+    transition: border-color 0.3s;
+}
+
+.avatar-item.selected {
+    border-color: #1890ff; /* Color del borde para el avatar seleccionado */
+}
+
+.avatar-item img {
+    width: 80px; /* Tamaño del avatar */
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.custom-url-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Espacio superior */
+    width: 100%; /* Ancho del contenedor */
+}
+
+.custom-url-input {
+    width: 100%;
+    max-width: 400px; /* Ancho máximo para el campo de entrada */
+    padding: 10px;
+    margin-bottom: 10px; /* Espacio entre el campo de entrada y el botón */
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+}
+
+.custom-url-button {
+    margin-top: 10px; /* Espacio superior */
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px; /* Espacio superior */
+}

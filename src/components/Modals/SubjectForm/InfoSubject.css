@@ -1,0 +1,21 @@
+.modal-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.professor-list,
+.career-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.professor-item,
+.career-item {
+    margin-bottom: 8px;
+}
+
+.professor-name,
+.career-name {
+    font-size: 14px;
+}

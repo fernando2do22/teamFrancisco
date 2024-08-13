@@ -1,0 +1,45 @@
+/* Nav.css */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet');
+
+.user-name{
+    margin-right:30px;
+    color:#52F1EF;
+    margin-left:10px;
+}
+.menu-items {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    display: flex;
+    justify-content: flex-end; /* Alineación del menú a la derecha */
+    font-family: "League Spartan", sans-serif; /* Fuente League Spartan */
+    font-size: 16px; /* Tamaño de fuente */
+    background-color:#002759;
+    
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px; /* Ajustamos el padding superior e inferior */
+    background-color:#002759;
+  
+}
+
+.a{
+    margin-top: 10px;
+}
+
+.menu-items .ant-menu-item {
+    margin-right: 20px; /* Espacio entre elementos del menú */
+    color: #ffffff; /* Color de texto para los elementos del menú */
+}
+
+.menu-items .ant-menu-item:last-child {
+    margin-right: 0; /* Eliminamos el margen derecho del último elemento */
+   
+}
+
+
+.ant-menu-title-content{
+    color:#ffffff;
+    
+}

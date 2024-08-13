@@ -1,0 +1,16 @@
+  1-creacion-de-templates-para-gitlab-issue_templates[m
+  118-modificar-modulo-de-calificaciones-para-precargar-calificaciones-de-alumnos-al-inicio-de-sesion[m
+  30-crear-modulo-de-usuarios[m
+  36-implementar-funcionalidad-para-eliminar-usuario[m
+  36-implementar-funcionalidad-para-eliminar-usuario-2[m
+  64-implementar-buscador-en-el-modulo-de-usuario[m
+  69-generar-reporte-de-usuarios-en-pdf[m
+  69-generar-reporte-de-usuarios-en-pdf-2[m
+  69-generar-reporte-de-usuarios-en-pdf-copy[m
+  80-implementar-modulo-de-calificaciones[m
+  80-implementar-modulo-de-calificaciones-2[m
+* [32mdevelopment[m
+  main[m
+  modal_editar_usuario[m
+  mostrar-curp-en-filtro-rol-alumnos[m
+  prueba[m

@@ -1,0 +1,44 @@
+/* Importa la fuente League Spartan */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+body, html {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.a{
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+
+/* Estilo para el contenedor de la tabla */
+.products-container a {
+
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para las filas de la tabla */
+.ant-table-tbody > tr > td {
+    color: #000000;
+}
+
+/* Estilo para los encabezados de la tabla */
+.ant-table-thead > tr > th {
+    background-color: #004AAD;
+    color: #52F1EF;
+}
+
+/* Estilo para el botón */
+.ant-btn-primary {
+    background-color: #52F1EF;
+   
+    
+}
+
+/* Estilo para el botón al pasar el ratón por encima */
+.ant-btn-primary:hover {
+    background-color: #ffffff;
+    border-color: #f3f3f3;
+    color: #004AAD;
+}

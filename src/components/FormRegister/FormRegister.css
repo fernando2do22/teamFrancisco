@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet');
+
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+.responsive-card {
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.login-form-button {
+    width: 100%;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.ant-card-head {
+    background: #002759;
+    color: #fff;
+    text-align: center;
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.ant-card{
+    box-shadow: 1px 7px 20px 20px rgba(1, 20, 20, 0.3);
+    font-family: 'League Spartan', sans-serif;
+}
+
+.ant-card-body {
+    padding: 24px;
+    font-family: 'League Spartan', sans-serif;
+    
+}
+
+.ant-form-item {
+    margin-bottom: 16px;
+}

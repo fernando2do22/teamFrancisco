@@ -1,0 +1,19 @@
+/* src/components/StatisticsChart.css */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+
+.chart-container {
+    width: 100%;
+    max-width: 800px; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 auto; /* Centra el contenedor si deseas */
+    font-family: 'League Spartan', sans-serif; /* Aplica la fuente a las gráficas */
+
+  }
+  
+  .chart {
+    width: 100%;
+    height: 500px; /* Ajusta la altura del gráfico */
+    font-family: 'League Spartan', sans-serif; /* Aplica la fuente a las gráficas */
+
+  }
+  

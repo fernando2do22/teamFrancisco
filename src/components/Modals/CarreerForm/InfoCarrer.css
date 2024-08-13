@@ -1,0 +1,24 @@
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#002759;
+}
+
+.subject-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.subject-item {
+    margin-bottom: 8px;
+}
+
+.subject-name {
+    font-weight: bold;
+}
+
+.professor-names {
+    color: #555;
+    font-style: italic;
+}

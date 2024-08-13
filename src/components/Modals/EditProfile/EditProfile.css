@@ -1,0 +1,22 @@
+.edit-name-modal {
+    font-family: Arial, sans-serif;
+}
+
+.edit-name-modal .ant-modal-title {
+    color: #1890ff;
+    
+    font-size: 18px;
+    text-align: center;
+}
+
+.edit-name-modal .ant-modal-body {
+    padding: 20px;
+}
+
+.edit-name-modal .ant-input {
+    margin-bottom: 12px;
+}
+
+.edit-name-modal .ant-modal-footer .ant-btn {
+    margin-right: 8px;
+}

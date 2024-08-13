@@ -1,0 +1,70 @@
+.layout {
+    min-height: 100vh;
+    height: 100%;
+    overflow: auto; 
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column; /* Cambia de row a column para permitir el desplazamiento vertical */
+    align-items: flex-start;
+    justify-content: flex-start; 
+    padding: 50px;
+    background: #f0f2f5;
+    overflow: auto; 
+    width: 100%; 
+}
+
+.carousel-container {
+    width: 80%;
+    margin-bottom: 300px; 
+    margin: 0 auto 30px auto;
+    height: 100%;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+.welcome-card, .info-card {
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'League Spartan', sans-serif;
+}
+
+.titulo-card {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    color: #002759;
+
+
+}
+.welcome-card:hover, .info-card:hover {
+    transform: translateY(-5px);
+}
+
+.contenido-card{
+    
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: justify;
+    padding: 5px;
+  
+    
+}
+
+.slider-image {
+    width: 100%;
+    height: 100%;
+}
